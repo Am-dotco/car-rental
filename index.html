@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Car Rental Service</h1>
+        <nav>
+            <a href="#">
+                <img src="logo.jpeg" alt="Your Company Logo"> 
+              </a>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#cars">Our Cars</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We offer a wide range of cars for rent at affordable prices. Your satisfaction is our priority!</p>
+    </section>
+
+    <section id="cars">
+        <h2>Our Cars</h2>
+        <div class="car-list">
+            <div class="car">
+                <img src="scorpio.1.jpeg" alt="Car 1">
+                <h3>Car Model 1</h3>
+                <p>Price: 5400/day</p>
+                <button onclick="rentCar('Car Model 1')">Rent Now</button>
+            </div>
+            <div class="car">
+                <img src="beloro .2.jpeg" alt="Car 2">
+                <h3>Car Model 2</h3>
+                <p>Price: 1200/day</p>
+                <button onclick="rentCar('Car Model 2')">Rent Now</button>
+            </div>
+            <div class="car">
+                <img src="baleno.2.jpeg" alt="Car 3">
+                <h3>Car Model 3</h3>
+                <p>Price: 12000/day</p>
+                <button onclick="rentCar('Car Model 3')">Rent Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: thakurambar@gmail.com</p>
+        <p>Phone: +91 9329982412</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Car Rental Service. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
